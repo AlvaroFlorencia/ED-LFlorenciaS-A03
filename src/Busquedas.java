@@ -44,7 +44,7 @@ for (int i=0;i<tamaño;i++){
         }
         else
         {
-            System.out.println("El dato  se encuentra dentroe del  vector " + n ) ;
+            System.out.println("El dato  se encuentra dentro del  vector " + n ) ;
         }
     }
     

@@ -16,7 +16,7 @@ public class EDLFlorenciaSA03 {
      * @param args the command line arguments
      */
     public static void main(String[] args) {
-        int [] vector = {1,2,3,4,5,6,7,8,9}; //Arreglo en forma ordenada para pueda funcionar el binario
+        int [] vector = {8,9,11,13,15,6,7,81,99}; //Arreglo en forma ordenada para pueda funcionar el binario
         secuencial secuencial1 = new secuencial();  
         binaria binaria1 = new binaria();
         secuencial1.setVector(vector);
