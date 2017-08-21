@@ -16,13 +16,15 @@ public class EDLFlorenciaSA03 {
      * @param args the command line arguments
      */
     public static void main(String[] args) {
-        int [] vector = {8,9,11,13,15,6,7,81,99}; 
+        int [] vector = {7,6,5,4,3,2,1,9,8}; 
+        
         secuencial secuencial1 = new secuencial();  
         binaria binaria1 = new binaria();
+        binaria1.seleccion(vector);
         secuencial1.setVector(vector);
-        binaria1.setVector(vector);
+        binaria1.MostrarVector(vector);
         secuencial1.MostrarF(secuencial1.busqueda(2));
-        binaria1.MostrarF(binaria1.busqueda(3));
+     
         
     }
     

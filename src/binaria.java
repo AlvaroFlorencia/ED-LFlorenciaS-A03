@@ -41,9 +41,9 @@ public class binaria extends Busquedas implements Ordenamiento  {
     @Override
     public int[] seleccion(int[] array) {  //El método recibe un array
         int menor,auxiliar;                   //Variables   
-         for(int i =0;1<array.length;i++){  //Primer ciclo for en posición i 
+         for(int i =0;i<array.length-1;i++){  //Primer ciclo for en posición i 
              menor=i;                      //Menor se vuelve la posición i
-         for(int j=1+1;i<array.length;j++)  //Segundo ciclo for en posición j
+         for(int j=i+1;j<array.length;j++)  //Segundo ciclo for en posición j
             
          {
              if(array[j]<array[menor]){  //Si la posción en j es menor que la posición menor..
