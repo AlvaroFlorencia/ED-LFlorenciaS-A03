@@ -168,10 +168,10 @@ public static void merge(int array[],int izquierda, int medio, int derecha){
                      array[k++]= arrayAuxiliar [i++]; //Medio se vueleve izquierda
              }
              else{
-                     array [k++]= arrayAuxiliar [j++]; //Si no medio se vuelve derecha y
+                     array [k++]= arrayAuxiliar [j++]; //Si no medio se vuelve derecha 
              }
                      while (i<=medio) {
-                           array [k++]= arrayAuxiliar [i++]; //primera mitad (si los hay)
+                           array [k++]= arrayAuxiliar [i++]; //Mientras i es menor o igual al valro de enmedio,posción en medio es igual a posición la posición de inicio
  
              }
 
