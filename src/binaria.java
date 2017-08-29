@@ -64,17 +64,17 @@ public class binaria extends Busquedas implements Ordenamiento  {
     public int[] inserccion(int[] array) {  //El método recibe un array
           
           int temporal;
-          int j;
+          int j = 0;
           
           //Variables   
-         for(int i =1;i<array.length-1;i++){ 
-            temporal=array[i];
-            j=1-1;
-        while((j>=0)&&(array[j]>temporal)){
-            array[j+1]=array[j];
+         for(int i =1;i<array.length-1;i++){ //Se corre el arreglo
+            temporal=array[i];  //En temporal se guarda el valor de i 
+            i--;      
+        while((j>=0)&&(array[j]>temporal)){  //Mientras j sea igual  a cero y mayot al temporal
+            array[j+1]=array[j]; //Se hara el intercambio con el de la izauierda
             j--;
         }
-        array[j+1]=temporal;
+        array[j+1]=temporal;  
     }
  return array;   //Se regresa el array
  
