@@ -28,9 +28,8 @@ for (int i=0;i<tamaño;i++){
     }
 
     public void MostrarVector(int[] vector) { //Mostrar vector se corre el arreglo y se va imprimiendo
-       for (int i=0;i<vector.length;i++){
-           System.out.println(Arrays.toString(vector)+ ", ");
-}
+     
+           System.out.println(Arrays.toString(vector));
     }
 
     public void setVector(int[] vector) {  //Setter

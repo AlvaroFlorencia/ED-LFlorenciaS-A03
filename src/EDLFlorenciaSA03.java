@@ -19,11 +19,20 @@ public class EDLFlorenciaSA03 {
         int [] vector = {7,6,5,4,3,2,1,9,8}; 
         
         secuencial secuencial1 = new secuencial();  
-        binaria binaria1 = new binaria();
-        binaria1.seleccion(vector);
+       /** binaria binaria1 = new binaria();
+        binaria1.inserccion(vector);
         secuencial1.setVector(vector);
         binaria1.MostrarVector(vector);
         secuencial1.MostrarF(secuencial1.busqueda(2));
+        *  */
+       binaria binaria1 = new binaria();
+       
+       binaria1.mergeSort(vector,0,vector.length-1);
+       binaria1.MostrarVector(vector);
+       
+
+        
+        
      
         
     }

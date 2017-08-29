@@ -10,5 +10,14 @@
  */
 public interface Ordenamiento {
     public abstract int[] seleccion(int[] array);   //Método a implementar
+    public abstract int[] inserccion(int[] array );
+    public abstract int [] burbuja(int[] array );
+     public abstract void quickSort(int inicio, int fin);
+      public abstract void mergeSort(int array[],int izquierda, int derecha);
+    
+    
+    
+    
+    
     
 }
